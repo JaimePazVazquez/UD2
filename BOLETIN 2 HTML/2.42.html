@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>2.42</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarea 2.42</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <h1>Suscripcion</h1>
+        <form name="Suscripcion " action="servidor.php" method="POST">
+            <label for="NombreyApellidos">Nombre y Apellidos</label>
+            <input type="text" id="NombreyApellidos" name="NombreCompleto" maxlength="100"required><br><br>
+            <label for="alias">Direccion postal</label>
+            <input type="text" id="DireccionPostal" name="DireccionPostal" maxlength="100" required><br><br>
+            <label for="NumeroEjemplares">Ejemplares</label>
+            <input type="Number" id="Ejemplares" name="Ejemplares" min ="1"max="10" required><br><br>
+            <select>
+                <option value="opcion1">Mensual </option>
+                <option value="opción1">Trimestral</option>
+                <option value="opcion1">Anual</option>
+                </select><br><br>
+            <label for="enviar">Enviar</label>
+            <input type="submit" name="enviar" id="enviar"><br><br>
+            <input type="reset" name="reseteo"><br>
+        </form>
+    </body>
+    </html>
